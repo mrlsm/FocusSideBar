@@ -49,11 +49,13 @@ dependencies {
 也可以在java代码中设置这些属性：
 
 ```java
-FocusSideBar sideBar = (FocusSideBar) findViewById(R.id.side_bar);
+FocusSideBar sideBar = (FocusSideBar) findViewById(R.id.focus_side_bar);
 sideBar.setTextColor(Color.BLACK);
 sideBar.setPosition(FocusSideBar.POSITION_LEFT);
 sideBar.setTextAlign(FocusSideBar.TEXT_ALIGN_CENTER);
 sideBar.setLazyRespond(true);
+
+sideBar.setCurrentIndex(pos); // 设置当前侧边栏字符位置
 ```
 
 ## 监听器设置

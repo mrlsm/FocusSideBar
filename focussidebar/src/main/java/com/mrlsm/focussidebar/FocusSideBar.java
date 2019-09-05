@@ -314,6 +314,9 @@ public class FocusSideBar extends View {
         if (index >= this.mIndexItems.length) {
             index = this.mIndexItems.length - 1;
         }
+        if (index < 0) {
+            index = 0;
+        }
         return index;
     }
 
