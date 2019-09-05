@@ -69,7 +69,7 @@ sideBar.setOnSelectIndexItemListener(new FocusSideBar.OnSelectIndexItemListener(
 
 ## 帮助类 SpellingUtils
 
-提供中文提取首个汉字大写字母，并提供 List<String> 汉字 字符 数字 排序功能
+提供中文提取首个汉字大写字母，并提供 String 列表的 汉字 字符 数字 排序功能
 
 ### 参考：
 
